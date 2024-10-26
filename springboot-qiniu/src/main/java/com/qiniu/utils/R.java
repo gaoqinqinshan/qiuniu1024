@@ -1,4 +1,4 @@
-package com.qiniu.config;
+package com.qiniu.utils;
 
 import lombok.Data;
 

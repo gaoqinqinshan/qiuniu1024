@@ -1,4 +1,4 @@
-package com.qiniu.config;
+package com.qiniu.utils;
 
 /**
  * @author gao

@@ -1,4 +1,4 @@
-package com.qiniu.springbootqiniu;
+package com.qiniu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

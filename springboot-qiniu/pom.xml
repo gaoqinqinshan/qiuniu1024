@@ -90,6 +90,15 @@
             <version>5.11.0.202103091610-r</version>
         </dependency>
 
+        <!--   mybatis-plus   -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.3.4</version>
+        </dependency>
+
+
+
         <!--   七牛云服务   -->
         <dependency>
             <groupId>com.qiniu</groupId>

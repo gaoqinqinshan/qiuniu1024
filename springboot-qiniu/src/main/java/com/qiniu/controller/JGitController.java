@@ -17,12 +17,10 @@ import java.net.URISyntaxException;
  * @description: 从github把代码clone到本地
  * @date 2024/10/27 19:54
  */
-
 @RestController
 public class JGitController {
-
-
-    @PostMapping("/clone-repository")
+    // 把代码clone到本地
+    @PostMapping("/clone")
     public R<String> cloneRepository(
             @RequestParam("repoUrl") String repoUrl,
             @RequestParam("localPath") String localPath,

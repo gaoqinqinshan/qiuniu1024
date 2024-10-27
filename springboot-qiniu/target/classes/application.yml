@@ -1,6 +1,6 @@
 # 端口
 server:
-  port: 8081
+  port: 8080
 # mysql配置
 spring:
   datasource:
@@ -8,6 +8,7 @@ spring:
     username: root
     password: word
     driver-class-name: com.mysql.cj.jdbc.Driver
+# redis配置
 redis:
   # redis数据库索引(默认为0)，我们使用索引为3的数据库，避免和其他数据库冲突
   database: 3
@@ -16,7 +17,7 @@ redis:
   # redis端口（默认为6379）
   port: 6379
   # redis访问密码（默认为空）
-  password: 
+  password:
   # redis连接超时时间（单位毫秒）
   timeout: 0
   # redis连接池配置
@@ -29,3 +30,8 @@ redis:
     min-idle: 0
     # 从连接池中获取连接最大等待时间（默认为-1，单位为毫秒，负数表示无限）
     max-wait: -1
+ # 七牛云配置
+qiniu:
+  accessKey: "0HwEZYMkaBwhSGrUaAowtIYHNyWn39N2YwNPPvT2"
+  secretKey: "PqowfoHL9DnakBE5_T_48SgFuv4xFaMu-2TpLqz_"
+  bucket: "gaoqinshan"
